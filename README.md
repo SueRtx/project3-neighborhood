@@ -4,5 +4,9 @@ Code: neighborhood(4)
 Expected Output: [0,1,2,3,4]
 
 Test 2: "It should Change numbers to string" 
-Code: neighborhood(0,1,2,3,4)
+Code: neighborhood(4)
 Expected Output: ["0","1","2","3","4"]
+
+Test 3: "It shoud check if "3" is included in for loop.
+Code: neighborhood(3)
+Expected Output: true
