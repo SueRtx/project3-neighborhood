@@ -4,10 +4,9 @@ function neighborhood(num) {
   if (Number.parseInt(num) < 0) {
     let negNumber=("please enter positive number!");
     finalSongArray = negNumber;
-    console.log(finalSongArray)
+    
 
-  } else if (Number.parseInt(num) <= 0) {
-
+  } else if (Number.parseInt(num) >= 0) {
       for(let i = 0; i <= num; i++) {
       let updatedSongArray = i.toString()
 
@@ -24,3 +23,12 @@ function neighborhood(num) {
   }return finalSongArray
 }
 
+$(document).ready(function () {
+  $("form#neighbor").submit(function (event) {
+    event.preventDefault();
+    const song = $("input#num").val();
+    const output = neighborhood(song);
+    $("#newSong").text(output);
+    $("#newSong").show();
+  });
+});
