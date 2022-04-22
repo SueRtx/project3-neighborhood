@@ -7,7 +7,7 @@ function neighborhood(num) {
     console.log(finalSongArray)
 
   } else if (Number.parseInt(num) <= 0) {
-    
+
       for(let i = 0; i <= num; i++) {
       let updatedSongArray = i.toString()
 
@@ -21,5 +21,6 @@ function neighborhood(num) {
         finalSongArray.push(updatedSongArray)
       }
     } 
-  }
+  }return finalSongArray
 }
+
