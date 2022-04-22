@@ -1,9 +1,12 @@
 function neighborhood(num) {
-  let numArray = []
-  let finalSongArray = []
+  let numArray = [];
+  let finalSongArray = [];
+  if (Number.parseInt(num) < 0) {
+    
+    return true
+  } else {
   for(let i = 0; i <= num; i++) {
-    let updatedSongArray = i.toString()
-    console.log(updatedSongArray)
+    
     
     if(updatedSongArray.includes("3")) {
       finalSongArray.push(" Won't you be my Neighbor?")
@@ -17,3 +20,4 @@ function neighborhood(num) {
   } 
 }
 
+}

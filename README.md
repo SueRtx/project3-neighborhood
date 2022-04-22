@@ -18,3 +18,7 @@ Expected Output: "Boop!"
 Test 5: "It shoud check if "1" is included in for loop.
 Code: neighborhood(1)
 Expected Output: "Beep!"
+
+TEst 6: "It shoud check if user enter negative number.
+Code: neighborhood(-2)
+Expected Output: true
