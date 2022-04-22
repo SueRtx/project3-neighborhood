@@ -5,7 +5,8 @@ function neighborhood(num) {
     let updatedSongArray = i.toString();
     if(updatedSongArray.includes("3")) {
       return true;
-    
+    } else if(updatedSongArray.includes("2")) {
+      return " Boop!"
     }
   }
 }
