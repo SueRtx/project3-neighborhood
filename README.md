@@ -12,11 +12,11 @@ Test 3: "It shoud check if "3" is included in for loop."
 Code: neighborhood(3);
 Expected Output: true
 
-Test 4: "It shoud check if "2" is included in for loop."
+Test 4: "It shoud return "Boop!" for number 2."
 Code: neighborhood(2);
 Expected Output: "Boop!"
 
-Test 5: "It shoud check if "1" is included in for loop."
+Test 5: "It shoud return "Beep!" for number 1"
 Code: neighborhood(1);
 Expected Output: "Beep!"
 
