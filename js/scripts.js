@@ -1,12 +1,19 @@
 function neighborhood(num) {
-  let numArray = [];
-  let finalSongArray = [];
+  let numArray = []
+  let finalSongArray = []
   for(let i = 0; i <= num; i++) {
-    let updatedSongArray = i.toString();
+    let updatedSongArray = i.toString()
+    console.log(updatedSongArray)
+    
     if(updatedSongArray.includes("3")) {
-      return true;
+      finalSongArray.push(" Won't you be my Neighbor?")
     } else if(updatedSongArray.includes("2")) {
-      return " Boop!"
+      finalSongArray.push(" Boop!")
+    } else if(updatedSongArray.includes("1")) {
+      finalSongArray.push(" Beep!")
+    } else {
+      finalSongArray.push(updatedSongArray)
     }
-  }
+  } 
 }
+
