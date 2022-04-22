@@ -10,3 +10,7 @@ Expected Output: ["0","1","2","3","4"]
 Test 3: "It shoud check if "3" is included in for loop.
 Code: neighborhood(3)
 Expected Output: true
+
+Test 4: "It shoud check if "2" is included in for loop.
+Code: neighborhood(2)
+Expected Output: "BooP!"
