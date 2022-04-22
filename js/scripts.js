@@ -1,6 +1,12 @@
-function neighborhood(num){
-  let numArray = [];
+function neighborhood(num) {
+  let numArray = []
+  let finalSongArray = []
   for(let i = 0; i <= num; i++) {
-    numArray.push(i);
+    let updatedSongArray = i.toString()
   }
 }
+
+
+
+
+ 
