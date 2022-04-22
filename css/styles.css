@@ -1,0 +1,29 @@
+#outputSong {
+  display: none;
+}
+body {
+  background-color: rgb(175, 185, 222);
+}
+h1 {
+  color:blue;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+}
+img {
+  margin-top: 1%;
+  width: 150px;
+  border: 2px solid rgb(238, 20, 38);
+  border-width: 5px;
+}
+#neighbor {
+  background-color: rgb(38, 222, 72);
+  margin-left: 20%;
+  margin-top: 3%;
+  height:370px;
+  width: 60%;
+  border: solid #d30d0d 10px;
+  padding: 25px; 
+  text-align: center;
+  
+}
