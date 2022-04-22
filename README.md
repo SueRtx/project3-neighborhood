@@ -25,4 +25,4 @@ Expected Output: true
 
 Test 7: "It shoud tell user to enter positive number."
 Code: neighborhood(-2)
-Expected Output: "Enter positive number!"
+Expected Output: "Enter positive number!" 
