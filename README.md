@@ -44,27 +44,27 @@ Test 2: "It should Change numbers to string"
 Code: neighborhood(4);
 Expected Output: ["0","1","2","3","4"]
 
-Test 3: "It shoud check if "3" is included in for loop."
+Test 3: "It should check if "3" is included in for loop."
 Code: neighborhood(3);
 Expected Output: true
 
-Test 4: "It shoud return "Boop!" for number 2."
+Test 4: "It should return "Boop!" for number 2."
 Code: neighborhood(2);
 Expected Output: "Boop!"
 
-Test 5: "It shoud return "Beep!" for number 1"
+Test 5: "It should return "Beep!" for number 1"
 Code: neighborhood(1);
 Expected Output: "Beep!"
 
-TEst 6: "It shoud check if user entered negative number."
+TEst 6: "It should check if user entered negative number."
 Code: neighborhood(-2);
 Expected Output: true
 
-Test 7: "It shoud tell user to enter a positive number if it"s a negative number."
+Test 7: "It should tell user to enter a positive number if it"s a negative number."
 Code: neighborhood(-2);
 Expected Output: "Enter a positive number!" 
 
-Test 8: "It should return correct result."
+Test 8: "It should return the correct result."
 Code: neighborhood(4);
 Expected Output: [0, Beep!, Boop!, Won't you be my Neighbor?,4] 
 

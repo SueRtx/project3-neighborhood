@@ -1,13 +1,12 @@
 function neighborhood(num) {
   let numArray = [];
   let finalSongArray = [];
-  if (Number.parseInt(num) < 0 || Number.parseInt(num) != " ") {
-    let negNumber = ("Please enter a positive number!");
-    finalSongArray = negNumber;
-    
-  } else if (Number.parseInt(num) >= 0) {
+  if (Number.parseInt(num) < 0 || num == "") {
+    let negNumber = ("please enter positive number!");
+    finalSongArray =  negNumber;
+  } else if(Number.parseInt(num) >= 0){
     for(let i = 0; i <= num; i++) {
-    let updatedSongArray = i.toString();
+    let updatedSongArray = i.toString()
     if(updatedSongArray.includes("3")) {
       finalSongArray.push(" Won't you be my Neighbor?");
     } else if(updatedSongArray.includes("2")) {
