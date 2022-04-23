@@ -70,4 +70,4 @@ Expected Output: [0, Beep!, Boop!, Won't you be my Neighbor?,4]
 
 Test 9: "It should tell the user to enter a number if nothing was entered.."
 Code: neighborhood("  ");
-Expected Output:"Enter a positive number!"
+Expected Output: "Enter a positive number!"
