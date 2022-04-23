@@ -1,8 +1,8 @@
 function neighborhood(num) {
   let numArray = [];
   let finalSongArray = [];
-  if (Number.parseInt(num) < 0) {
-    let negNumber = ("please enter positive number!");
+  if (Number.parseInt(num) < 0 || Number.parseInt(num) != " ") {
+    let negNumber = ("Please enter a positive number!");
     finalSongArray = negNumber;
     
   } else if (Number.parseInt(num) >= 0) {

@@ -1,15 +1,19 @@
 #outputSong {
   display: none;
+  margin-top:3%;
+  font-size: 20px ;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(238, 20, 38);
 }
-
 body {
-  background-color: rgb(175, 185, 222);
+  background-color: rgb(150, 193, 236);
 }
 h1 {
   color:blue;
   text-align: center;
-  font-size: 30px;
-  margin-top: 5%;
+  font-size: 35px;
+  margin-top: 2%;
 }
 img {
   margin-top: 1%;
@@ -21,10 +25,37 @@ img {
   background-color: rgb(38, 222, 72);
   margin-left: 20%;
   margin-top: 3%;
-  height:370px;
+  height:50%;
   width: 60%;
-  border: solid #d30d0d 10px;
+  border: solid rgb(238, 20, 38) 8px;
   padding: 25px; 
   text-align: center;
-  
 }
+.form {
+  font-size:25px ;
+  font-weight: bold;
+  color:blue;
+}
+#num {
+  font-size: 15px ;
+  width: 85%;
+  background-color:rgb(209, 244, 16) ; 
+  border: solid blue 3px;
+  text-align: center;
+}
+placeholder {
+  color:blue;  
+}
+#button {
+  font-size: 15px ;
+  font-weight: bold;
+  background-color:rgb(236, 238, 227) ;
+  color:rgb(238, 20, 38);
+  border: solid rgb(238, 20, 38) 3px;
+}
+h2 {
+  color:blue;
+  text-align: center;
+  font-size: 25px;
+}
+

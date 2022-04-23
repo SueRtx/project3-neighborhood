@@ -24,10 +24,14 @@ TEst 6: "It shoud check if user enter negative number."
 Code: neighborhood(-2);
 Expected Output: true
 
-Test 7: "It shoud tell user to enter positive number."
+Test 7: "It shoud tell user to enter positive number if it"s a negative number."
 Code: neighborhood(-2);
-Expected Output: "Enter positive number!" 
+Expected Output: "Enter a positive number!" 
 
 Test 8: "It should return correct result."
 Code: neighborhood(4);
 Expected Output: [0, Beep!, Boop!, Won't you be my Neighbor?,4] 
+
+Test 9: "It should tell the user to enter a number if nothing was entered.."
+Code: neighborhood("  ");
+Expected Output:"Enter a positive number!"
