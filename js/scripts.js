@@ -26,5 +26,13 @@ $(document).ready(function () {
     const output = neighborhood(song);
     $("#newSong").text(output);
     $("#outputSong").show();
+    
+    $(".clickable").click(function() {
+      $(".walrus-showing").toggle();
+      $(".walrus-hidden").toggle();
+    });
+  
+
   });
 });
+
